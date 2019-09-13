@@ -1,2 +1,17 @@
 <!--pages/mytest/test.wxml-->
-<text>pages/mytest/test.wxml</text>
+<text>pages/mytest/test.wxm333l</text>
+
+<view>{{name}}</view>
+
+<view wx:for='{{person}}'>{{item.name}}</view>
+
+<view>
+当前计数：{{count}}
+</view>
+
+<button bindtap="add">自增按钮</button>
+<button open-type="getUserInfo" bindgetuserinfo="getUserInfo">获取用户信息按钮</button>
+<open-data type="userAvatarUrl"></open-data>
+
+<view wx:for='{{mylist}}'>{{item}}</view>
+
