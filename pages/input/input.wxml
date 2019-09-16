@@ -1,0 +1,14 @@
+<!--pages/input/input.wxml-->
+<text>pages/input/input.wxml</text>
+<input bindfocus="handFocus"
+bindblur="handBlur"
+bindinput="handInput"
+/>
+
+<scroll-view class="container" scroll-x>
+<view wx:for="{{10}}" class="item">{{item}}</view>
+</scroll-view>
+
+<scroll-view class="container1" scroll-y>
+<view wx:for="{{10}}" class="item1">{{item}}</view>
+</scroll-view>

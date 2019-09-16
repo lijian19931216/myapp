@@ -48,12 +48,26 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 2,
 			"list": [
 				{
 					"id": -1,
 					"name": "pages/mytest/test",
 					"pathName": "pages/mytest/test",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/image/image",
+					"pathName": "pages/image/image",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/input/input",
+					"pathName": "pages/input/input",
 					"scene": null
 				}
 			]

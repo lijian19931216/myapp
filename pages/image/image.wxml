@@ -1,0 +1,5 @@
+<!--pages/image/image.wxml-->
+<text>pages/image/image.wxml</text>
+<!-- 选中图片 -->
+<button bindtap="window">按钮</button>
+<image src="{{path}}"/>
